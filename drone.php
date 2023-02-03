@@ -15,7 +15,9 @@
 
  <body>
     <div id = "main">
+      <canvas id='chart'>Тут график
 
+      </canvas>
     </div>
 
     <div id = "controls">
