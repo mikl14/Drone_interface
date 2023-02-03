@@ -7,7 +7,7 @@
 
   
   <script>
-            var chart = document.getElementById("chart"),
+            var chart = document.getElementById("chart");
           ctx     = chart.getContext('2d');
             
             ctx.strokeRect(15, 15, 266, 266);
