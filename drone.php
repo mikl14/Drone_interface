@@ -20,7 +20,7 @@
            // ctx.strokeStyle = 'rgba(255, 255, 255, 1) ';
 
            ctx.rect(0, 0, 100, 100);
-           ctx.get
+           ctx.stroke();
         </script>
 
       </canvas>
