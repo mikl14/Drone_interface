@@ -6,7 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   
-  <script>
+ 
+
+ </head>
+
+ <body>
+    <div id = "main">
+      <canvas id='chart'>Тут график
+         <script>
             var chart = document.getElementById("chart");
             console.log(document.getElementById("chart"));
           // var ctx = chart.getContext('2d');
@@ -20,13 +27,7 @@
                     ctx.clearRect(20 + (i + 1) * 32, 20 + (j + 1) * 32, 32, 32);
                 }
         </script>
-
- </head>
-
- <body>
-    <div id = "main">
-      <canvas id='chart'>Тут график
-
+        
       </canvas>
     </div>
 
