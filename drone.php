@@ -19,7 +19,7 @@
     </div>
 
     <div id = "controls">
-      <select id="selecttheme">
+      <select id="select_room">
 
         <option value="1">Room1</option>
 

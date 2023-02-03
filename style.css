@@ -28,3 +28,10 @@
         justify-content: space-between;
         align-items: center;
       }
+
+       #select_room
+      {
+        height: 5%;
+        width: 20%;
+        display: flex;
+      }
