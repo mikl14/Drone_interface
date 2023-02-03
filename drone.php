@@ -13,7 +13,7 @@
          <script>
             var chart = document.getElementById("chart");
            var ctx = chart.getContext('2d');
-            ctx.strokeStyle = 'rgba(255, 255, 255, 1) ';
+           // ctx.strokeStyle = 'rgba(255, 255, 255, 1) ';
            ctx.moveTo(0, 0);
            ctx.lineTo(100, 100);
         </script>
