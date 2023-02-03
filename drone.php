@@ -12,8 +12,8 @@
       <canvas id='chart'>Тут график
          <script>
             var chart = document.getElementById("chart");
-           var canvas_width = (document.getElementById("chart")).getBoundingClientRect().width;
-           var canvas_height = (document.getElementById("chart")).getBoundingClientRect().height;
+            chart.width = (document.getElementById("chart")).getBoundingClientRect().width;
+            chart.height = (document.getElementById("chart")).getBoundingClientRect().height;
            var ctx = chart.getContext('2d');
            var width_rect = 100;
            var height_rect = 100;
