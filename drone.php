@@ -16,6 +16,7 @@
            // ctx.strokeStyle = 'rgba(255, 255, 255, 1) ';
            ctx.moveTo(0, 0);
            ctx.lineTo(100, 100);
+           ctx.fillRect(100, 100, 250, 140);
         </script>
 
       </canvas>
