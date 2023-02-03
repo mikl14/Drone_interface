@@ -17,7 +17,7 @@
            var ctx = chart.getContext('2d');
            var width_rect = 100;
            var height_rect = 100;
-            ctx.strokeStyle = 'rgba(255, 255, 255, 1) ';
+           // ctx.strokeStyle = 'rgba(255, 255, 255, 1) ';
 
            ctx.rect(0, 0, width_rect, height_rect);
            ctx.get
