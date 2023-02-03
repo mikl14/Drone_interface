@@ -12,11 +12,15 @@
       <canvas id='chart'>Тут график
          <script>
             var chart = document.getElementById("chart");
+           var canvas_width = (document.getElementById("chart")).getBoundingClientRect().width;
+           var canvas_height = (document.getElementById("chart")).getBoundingClientRect().height;
            var ctx = chart.getContext('2d');
+           var width_rect = 100;
+           var height_rect = 100;
            // ctx.strokeStyle = 'rgba(255, 255, 255, 1) ';
-           ctx.moveTo(0, 0);
-           ctx.lineTo(100, 100);
-           ctx.fillRect(100, 100, 250, 140);
+
+           ctx.fillRect((canvas_width/2)-width_rect, (canvas_height/2)-height_rect, width_rect, height_rect);
+           ctx.get
         </script>
 
       </canvas>
