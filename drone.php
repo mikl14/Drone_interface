@@ -19,7 +19,7 @@
            var height_rect = 100;
            // ctx.strokeStyle = 'rgba(255, 255, 255, 1) ';
 
-           ctx.rect(100, 100, 20, 20);
+           ctx.rect((width/2)-width_rect, (height_rect/2)-height_rect, width_rect, height_rect);
            ctx.stroke();
         </script>
 
