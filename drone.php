@@ -8,7 +8,7 @@
   
   <script>
             var chart = document.getElementById("chart");
-          ctx     = chart.getContext('2d');
+           var ctx = chart.getContext('2d');
             
             ctx.strokeRect(15, 15, 266, 266);
             ctx.strokeRect(18, 18, 260, 260);
