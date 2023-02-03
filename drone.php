@@ -19,7 +19,7 @@
            var height_rect = 100;
            // ctx.strokeStyle = 'rgba(255, 255, 255, 1) ';
 
-           ctx.rect((chart.getBoundingClientRect().width)/2, 0, 100, 100);
+           ctx.rect(100, 100, 20, 20);
            ctx.stroke();
         </script>
 
