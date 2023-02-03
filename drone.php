@@ -5,9 +5,6 @@
   <link rel="stylesheet" href="style.css"  type="text/css"> 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  
- 
-
  </head>
 
  <body>
@@ -15,8 +12,7 @@
       <canvas id='chart'>Тут график
          <script>
             var chart = document.getElementById("chart");
-            console.log(document.getElementById("chart"));
-          // var ctx = chart.getContext('2d');
+           var ctx = chart.getContext('2d');
             
             ctx.strokeRect(15, 15, 266, 266);
             ctx.strokeRect(18, 18, 260, 260);
@@ -27,7 +23,7 @@
                     ctx.clearRect(20 + (i + 1) * 32, 20 + (j + 1) * 32, 32, 32);
                 }
         </script>
-        
+
       </canvas>
     </div>
 
